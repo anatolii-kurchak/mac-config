@@ -160,6 +160,11 @@
     <keyboard-shortcut first-keystroke="home" />
     <keyboard-shortcut first-keystroke="meta left" />
   </action>
+  <action id="NewElement">
+    <keyboard-shortcut first-keystroke="meta n" />
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+    <keyboard-shortcut first-keystroke="ctrl back_slash" />
+  </action>
   <action id="NewScratchFile" />
   <action id="NextSplitter">
     <keyboard-shortcut first-keystroke="ctrl page_down" />
