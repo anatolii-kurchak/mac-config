@@ -59,7 +59,9 @@
   </action>
   <action id="Compile" />
   <action id="CompileFile" />
-  <action id="DatabaseView.PropertiesAction" />
+  <action id="DatabaseView.PropertiesAction">
+    <keyboard-shortcut first-keystroke="shift enter" />
+  </action>
   <action id="Debug">
     <keyboard-shortcut first-keystroke="shift f9" />
   </action>
