@@ -1,4 +1,7 @@
 <keymap version="1" name="macOS_karabiner" parent="Mac OS X 10.5+">
+  <action id="ActivateBigDataToolWindowToolWindow">
+    <keyboard-shortcut first-keystroke="shift ctrl meta b" />
+  </action>
   <action id="ActivateBookmarksToolWindow">
     <keyboard-shortcut first-keystroke="ctrl 2" />
   </action>
@@ -56,6 +59,7 @@
   </action>
   <action id="Compile" />
   <action id="CompileFile" />
+  <action id="DatabaseView.PropertiesAction" />
   <action id="Debug">
     <keyboard-shortcut first-keystroke="shift f9" />
   </action>
@@ -140,6 +144,9 @@
   <action id="GotoImplementation">
     <mouse-shortcut keystroke="meta alt button1" />
     <keyboard-shortcut first-keystroke="ctrl meta b" />
+  </action>
+  <action id="ImplementMethods">
+    <keyboard-shortcut first-keystroke="meta i" />
   </action>
   <action id="IntroduceVariable">
     <keyboard-shortcut first-keystroke="ctrl meta v" />
@@ -269,4 +276,5 @@
   <action id="XDebugger.MuteBreakpoints">
     <keyboard-shortcut first-keystroke="ctrl b" />
   </action>
+  <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleItalicAction" />
 </keymap>
