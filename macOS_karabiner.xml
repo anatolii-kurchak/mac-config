@@ -116,6 +116,7 @@
   <action id="ExtractMethod">
     <keyboard-shortcut first-keystroke="ctrl meta m" />
   </action>
+  <action id="FindNext" />
   <action id="Forward">
     <mouse-shortcut keystroke="button5" />
     <keyboard-shortcut first-keystroke="shift ctrl right" />
@@ -146,6 +147,9 @@
   <action id="GotoImplementation">
     <mouse-shortcut keystroke="meta alt button1" />
     <keyboard-shortcut first-keystroke="ctrl meta b" />
+  </action>
+  <action id="GotoLine">
+    <keyboard-shortcut first-keystroke="meta g" />
   </action>
   <action id="ImplementMethods">
     <keyboard-shortcut first-keystroke="meta i" />
